@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://www.linkedin.com/in/wesley-fernandess',
+  title: 'WF.',
 }
 
 const about = {
@@ -9,63 +9,64 @@ const about = {
   name: 'Wesley Fernandes',
   role: 'Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Software engineer with over 4 years of diverse experience demonstrating  a track record of driving brand growth and enhancing development strategies. Known for a strategic approach with gitflow to develop and execute comprehensive development strategies, achieving significant improvements in demand delivery.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/wesley-fernandess',
+    github: 'https://github.com/w3sll3y',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Market-App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Mobile project for managing monthly purchases.',
+    stack: ['React Native', 'TypeScript', 'Styled-Components'],
+    sourceCode: 'https://github.com/w3sll3y/market-app',
+    livePreview: 'https://github.com/w3sll3y/market-app',
   },
   {
-    name: 'Project 2',
+    name: 'Market-API',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'BackEnd of the MarketApp, where users and lists are managed.',
+    stack: ['NestJS', 'TypeScript', 'REST-API'],
+    sourceCode: 'https://github.com/w3sll3y/market-api',
+    livePreview: 'https://github.com/w3sll3y/market-api',
   },
   {
     name: 'Project 3',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'This project serves as a very slim backend designed to work with ExpressJs and SQL like BD. In this project is possible create an user, login, create transactions of payments and list all transactions.',
+    stack: ['Express', 'Javascript', 'SQL'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'SCRUM',
+  'Git',
+  'GitFlow',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'ReactJS',
+  'React Native',
+  'NextJS',
+  'VueJS',
+  'Styled-Components',
+  'Tailwind',
+  'Bootstrap',
+  'NodeJS',
+  'NestJS',
+  'ExpressJS',
+  'MongoDB',
+  'PostgreSQL',
+  'VTEX',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'fernandess.weslley@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
